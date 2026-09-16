@@ -138,3 +138,8 @@ footer p {
     font-size: 14px;
     margin: 0;
 }
+@media (max-width: 600px) {
+    .lesson-features {
+        grid-template-columns: 1fr;
+    }
+}
